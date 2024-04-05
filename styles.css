@@ -1,0 +1,183 @@
+/* Project Name: RCCG KUBWA
+	
+    Author: Kayode Ademola Festus
+	Author URI: linkedin.com/kaydeewrld
+	Support: TOLUWANI AWORINDE
+	Version: 1.1
+    Programming Language Used: CSS3, HTML 5, BOOTSTRAP 5.2, JAVASCRIPT
+    DATE: 30/03/2024 - 01/04/2024 
+    
+*/
+
+
+
+body{
+    background-color: #fff5ee ;
+    width: auto;
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+#navbar{
+    background-color: #1E1E1E;
+    color: white;
+    width: 1280px;
+    height: 60px;
+    border: 0.5px solid transparent; 
+    width: 100%;
+} 
+#container-fluid{
+    color: #fff5ee;
+    background: #1E1E1E;
+    width: 100%;
+    height: 100%;   
+}
+#btn{
+    background-color:#fff5ee ;
+    border-radius: 10px;
+    margin-right: 2px;
+    gap: 5px;
+    color: #1E1E1E;
+    width: 170px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    z-index: 1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden; 
+}
+#btn {
+    border: unset;
+    border-radius: 10px;
+    color: #1E1E1E;
+    z-index: 1;
+    background: #FFD2A4;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   #btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: white;
+    width: 0;
+    border-radius: 10px;
+    background-color: #050505;
+    border: 2px solid #FFD2A4;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   #btn:hover {
+    color: #f7f5f5;
+   }
+   
+   #btn:hover::before {
+    width: 100%;
+   }
+
+#btn > a{
+    padding: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    transition: box-shadow 0.3s;
+    text-decoration: none;
+}
+#btn1{
+    background-color: #cc313d;
+    border-radius: 10px;
+    color: #1E1E1E;
+    width: 110px;
+    height: 32px;
+    border: 1px solid #1E1E1E ;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s;
+}
+#btn1:hover{
+    box-shadow: 0 0 10px #f96167;
+}
+
+#navbarSupportedContent{
+    width: 360px;
+    left: 508px;
+}
+@keyframes glowing {
+    0% { text-shadow: 0 0 10px rgba(255, 255, 255, 1); }
+    50% { text-shadow: 0 0 20px rgba(228, 214, 149, 1); }
+    100% { text-shadow: 0 0 10px rgba(255, 255, 255, 1); }
+}
+#navbar-brand{
+    margin-right: 200px;
+    color: linear-gradient(to right, #FFD0A0, #FFF5EB);
+    font-size: x-large;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    animation: glowing 2s infinite;
+}
+#nav-item{
+    color: #FFF5EB ;
+    opacity: 0.5;
+    font-size: large;
+    transition: 0.3s;
+}
+#nav-item:hover{
+    color: #f96167; /* Change the text color on hover */
+    text-shadow: 0 0 5px #f96167; /* Apply a gold glow effect */
+}
+.banner-img{
+    margin-top: 20px;
+    width: 780px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+.big-banner{
+    width: 100%;
+    height: 100px;
+    margin-top: 1px;
+    border: 1px solid #FFF5EB;
+}
+.ws_images{
+    height: 100px;
+    width: 100%;
+}
+.second-section{
+    width: 100%;
+}
+.mid-section{
+    width: 80%;
+    margin-left: 10%;
+}
+.third-section{
+    width:100%;
+    
+}
+#third-section{
+    width: 900px;
+    margin-left: 200px;
+    
+}
+#mid-section{
+    width:100%;
+
+}
+
+
